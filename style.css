@@ -86,5 +86,94 @@ ul li a {
  a{
     color: hsl(198, 60%, 50%);
     text-decoration: none;
+}
 
- }
+.contentstayproductive__descript h1 {
+    font-size: 3em;
+}
+
+.curvydesktop{
+    position: absolute;
+    top: 44em;
+    transform: translate(0%, -30%);
+    width: 100%;
+}
+
+@media screen and (max-width: 1024px) {
+    .contentstayproductive {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .imgsizelog {
+        width: 50%;
+        height: 50%;
+    }
+
+    ul {
+        padding-left: 0px;
+        width: max-content;
+    }
+
+    ul li {
+        margin-right: 1em;
+    }
+
+    .contentHome {
+        margin: 2em;
+    }
+
+    .contentstayproductive__descript {
+        width: 70%;
+
+        justify-content: center;
+        display: flex;
+        flex-direction: column;
+    }
+    
+   
+}
+@media screen and (max-width: 531px) {
+    .curvydesktop{
+        top: 57em;
+    }
+    
+}
+
+@media screen and (max-width: 425px) {
+    .homecontent h1 {
+        width: 100%;
+        font-size: 2em;
+    }
+    .homecontent p {
+        width: 100%;
+    }
+    .contentSecond__card {
+        width: 100%;
+    }
+    .contentSecond__card p{
+        width: 100%;
+    }
+    .contentstayproductive__descript{
+        margin-left: 0px;
+        width: 100%;
+    }
+    .contentstayproductive__descript h1 {
+        width: 100%;
+        font-size: 1.3em;
+    }
+    .curvydesktop{
+        top: 38em;
+    }
+}
+@media screen and (max-width: 375px) {
+    .curvydesktop{
+        top: 37em;
+    }
+    
+}
+@media screen and (max-width: 320px) {
+    .curvydesktop{
+        top: 40em;
+    }
+}
