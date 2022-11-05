@@ -232,7 +232,14 @@ footer{
     align-items: center;
     justify-content: center;
 }
-
+#inputemail{
+    height: 3em;
+    margin-right: 2em;
+    border-radius: 30px;
+    width: 71%;
+    outline: none;
+    padding-left: 3em;
+}
 
 @media screen and (max-width: 1024px) {
     .contentstayproductive {
