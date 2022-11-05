@@ -144,6 +144,93 @@ a {
     width: 100%;
 }
 
+.profilcontent {
+    display: flex;
+    justify-content: center;
+    margin-top: 6em;
+    height: 17em;
+    background-image: url(images/bg-quotes.png);
+    background-repeat: no-repeat;
+    background-position-x: 8em;
+    align-items: center;
+    background-position-y: 0.5em;
+    margin-bottom: 20em;
+}
+
+.photoprofil {
+    border-radius: 50%;
+    width: 2em;
+}
+
+figure {
+    background-color: hsl(217, 28%, 15%);
+    padding: 1.5em;
+    margin: 1em;
+    max-width: 20em;
+    box-shadow: 6px 5px 9px rgb(18 18 32);
+}
+
+figcaption {
+    display: flex;
+    align-items: center;
+}
+
+blockquote {
+    margin-left: 0px;
+}
+
+.profilcard__namepost {
+    flex-direction: column;
+    margin-left: 1em;
+}
+
+.profilcard__namepost p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+footer{
+    background-color: hsl(216, 53%, 9%);
+    padding-left: 6em;
+    padding-right: 6em;
+    padding-top: 10em;
+    padding-bottom: 4em;
+}
+.footercontent{
+    display: flex;
+}
+.footercontent__contact{
+    flex-direction: column;
+}
+.getearlyaccestoday{
+    position: absolute;
+    top: 334%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 62%;
+    height: 23%;
+    padding: 2em;
+    background-color: hsl(217, 28%, 15%);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 6px 5px 9px rgb(18 18 32);
+}
+.getearlyaccestoday p{
+    width: 83%;
+    text-align: center;
+    opacity: 50%;
+}
+#myform{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
 @media screen and (max-width: 1024px) {
     .contentstayproductive {
         flex-direction: column;
