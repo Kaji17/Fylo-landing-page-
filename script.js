@@ -12,3 +12,21 @@ window.addEventListener('DOMContentLoaded', () => {
         body.style.backgroundPositionY = '33em';
     }
 })
+
+btnsubmit.addEventListener('click', () => {
+    if (regex.test(inputemail.value) === false) {
+        error.style.color = 'hsl(0, 100%, 63%)';
+        error.style.textAlign = 'left';
+        error.innerText = 'Please enter a valid email adress';
+    }
+    inputemail.addEventListener('input', (e) => {
+        value = e.currentTarget.value;
+        if (regex.test(value)) {
+            error.innerText = '';
+        } else {
+            error.innerText = 'Please enter a valid email adress';
+        }
+    })
+})
+
+
