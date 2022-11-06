@@ -391,6 +391,66 @@ a{
     .curvydesktop {
         top: 38em;
     }
+
+    .footercontent {
+        display: flex;
+        flex-direction: column;
+    }
+
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 19em;
+    }
+    .footercontent .footercontent__location{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .footercontent__location p {
+        width: 100%;
+    }
+    .footercontent .footercontent__contact {
+        display: flex;
+        margin-bottom: 2em;
+    }
+    .footer__list {
+        margin-top: 0px;
+        margin-bottom: 2em;
+    }
+    .footer__list li{
+        margin-top: 1em;
+    }
+    #myform{
+        flex-direction: column;
+        width: 100%;
+    }
+    .homecontent__btn{
+        width: 100%;
+    }
+    .getearlyaccestoday {
+        height: 42%;
+        padding: 2em;
+        width: 71%;
+
+    }
+    #inputemail{
+        width: 83%;
+        margin-right: 0px;
+        margin-bottom: 2em;
+    }
+    .getearlyaccestoday p{
+        width: 100%;
+    }
+    .getearlyaccestoday h1{
+        font-size: 1.5em;
+    }
+    .iconcontent{
+       justify-content: center;
+       align-items: center;
+    }
+    
 }
 
 @media screen and (max-width: 375px) {
