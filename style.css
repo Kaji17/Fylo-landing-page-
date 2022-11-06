@@ -3,6 +3,8 @@
     color: white;
     margin: 0px;
     background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: center;
     font-family: 'Open Sans', sans-serif;;
 }
 
@@ -34,6 +36,7 @@ ul li {
     list-style: none;
     margin-right: 4em;
     opacity: 50%;
+    width: max-content;
 }
 
 ul li:hover {
@@ -160,12 +163,12 @@ button {
     justify-content: center;
     margin-top: 6em;
     height: 17em;
-    background-image: url(images/bg-quotes.png);
+    background-image: url("images/bg-quotes.png");
     background-repeat: no-repeat;
-    background-position-x: 8em;
     align-items: center;
-    background-position-y: 0.5em;
     margin-bottom: 20em;
+    margin-left: 3em;
+    margin-right: 3em;
 }
 
 .photoprofil {
@@ -180,7 +183,7 @@ figure {
     background-color: hsl(217, 28%, 15%);
     padding: 1.5em;
     margin: 1em;
-    max-width: 20em;
+    max-width: 36em;
     box-shadow: 6px 5px 9px rgb(18 18 32);
 }
 
@@ -376,17 +379,41 @@ a{
         background-position-x: 2em;
         background-position-y: 0em;
     }
-}
-
-@media screen and (max-width: 531px) {
-    .curvydesktop {
-        top: 57em;
+    .footercontent {
+        display: flex;
+        flex-direction: column;
     }
 
-}
-
-@media screen and (max-width: 425px) {
-    .homecontent h1 {
+    footer {
+        display: flex;
+        flex-direction: column;
+        padding-left: 2em;
+        padding-right: 2em;
+        padding-top: 19em;
+    }
+    .footercontent .footercontent__location{
+        width: 100%;
+        margin-bottom: 2em;
+    }
+    .footercontent__location p {
+        width: 100%;
+    }
+    .footercontent .footercontent__contact {
+        display: flex;
+        margin-bottom: 2em;
+    }
+    .footer__list {
+        margin-top: 0px;
+        margin-bottom: 2em;
+    }
+    .footer__list li{
+        margin-top: 1em;
+    }
+    .iconcontent{
+        justify-content: center;
+        align-items: center;
+     }
+     .homecontent h1 {
         width: 100%;
         font-size: 1.5em;
     }
@@ -421,37 +448,6 @@ a{
     .curvydesktop {
         top: 38em;
     }
-
-    .footercontent {
-        display: flex;
-        flex-direction: column;
-    }
-
-    footer {
-        display: flex;
-        flex-direction: column;
-        padding-left: 2em;
-        padding-right: 2em;
-        padding-top: 19em;
-    }
-    .footercontent .footercontent__location{
-        width: 100%;
-        margin-bottom: 2em;
-    }
-    .footercontent__location p {
-        width: 100%;
-    }
-    .footercontent .footercontent__contact {
-        display: flex;
-        margin-bottom: 2em;
-    }
-    .footer__list {
-        margin-top: 0px;
-        margin-bottom: 2em;
-    }
-    .footer__list li{
-        margin-top: 1em;
-    }
     #myform{
         flex-direction: column;
         width: 100%;
@@ -476,11 +472,17 @@ a{
     .getearlyaccestoday h1{
         font-size: 1.5em;
     }
-    .iconcontent{
-       justify-content: center;
-       align-items: center;
+}
+
+@media screen and (max-width: 531px) {
+    .curvydesktop {
+        top: 57em;
     }
-    
+    .profilcontent{
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+
 }
 
 @media screen and (max-width: 375px) {
