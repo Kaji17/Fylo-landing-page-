@@ -236,7 +236,7 @@ footer {
     left: 50%;
     transform: translate(-50%, -46%);
     width: 62%;
-    height: 28%;
+    min-height: 22em;
     padding: 2em;
     background-color: hsl(217, 28%, 15%);
     display: flex;
