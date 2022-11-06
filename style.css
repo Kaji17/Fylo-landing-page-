@@ -1,10 +1,9 @@
-body {
+#body {
     background-color: hsl(217, 28%, 15%);
     color: white;
     margin: 0px;
-    background-image: url("images/bg-curvy-desktop.svg");
     background-repeat: no-repeat;
-    background-position-y: 34em;
+    font-family: 'Open Sans', sans-serif;;
 }
 
 .contentHome {
@@ -27,6 +26,7 @@ body {
 header {
     display: flex;
     justify-content: space-between;
+    font-family: 'Raleway', sans-serif;;
 }
 
 ul li {
@@ -40,7 +40,7 @@ ul li:hover {
     opacity: 200%;
 }
 
-ul li a:hover {
+.navlist li a:hover {
     text-decoration: underline;
     color: white;
 }
@@ -70,12 +70,14 @@ ul li a {
 }
 
 .homecontent h1 {
-    width: 69%;
-    font-size: 3em;
+    width: 68%;
+    font-size: 2em;
+    font-weight: 700;
 }
 
 .homecontent p {
     width: 42%;
+    opacity: 60%;
 }
 
 .homecontent__btn {
@@ -111,6 +113,7 @@ ul li a {
 
 .contentSecond__card p {
     width: 54%;
+    opacity: 60%;
 }
 
 .contentstayproductive {
@@ -131,13 +134,18 @@ ul li a {
     height: 100%;
 }
 
-a {
+#linkblue{
     color: hsl(198, 60%, 50%);
     text-decoration: none;
 }
 
+button {
+    cursor: pointer;
+}
+
 .contentstayproductive__descript h1 {
-    font-size: 3em;
+    font-size: 2em;
+    width: 65%;
 }
 
 .curvydesktop {
@@ -161,8 +169,11 @@ a {
 }
 
 .photoprofil {
-    border-radius: 50%;
     width: 2em;
+}
+
+.photoprofil--borderradius {
+    border-radius: 50%;
 }
 
 figure {
@@ -180,33 +191,44 @@ figcaption {
 
 blockquote {
     margin-left: 0px;
+    opacity: 60%;
 }
 
 .profilcard__namepost {
     flex-direction: column;
     margin-left: 1em;
+    font-size: x-small;
 }
 
 .profilcard__namepost p {
     margin-top: 0px;
     margin-bottom: 0px;
 }
+.opacity{
+    opacity: 60%;
+}
+.contentstayproductive__descript p{
+    opacity: 60%;
+}
 
-
-footer{
+footer {
     background-color: hsl(216, 53%, 9%);
     padding-left: 6em;
     padding-right: 6em;
     padding-top: 13em;
     padding-bottom: 4em;
 }
-.footercontent{
+
+.footercontent {
     display: flex;
+    margin-top: 3em;
 }
-.footercontent__contact{
+
+.footercontent__contact {
     flex-direction: column;
 }
-.getearlyaccestoday{
+
+.getearlyaccestoday {
     position: absolute;
     left: 50%;
     transform: translate(-50%, -46%);
@@ -220,18 +242,21 @@ footer{
     justify-content: center;
     box-shadow: 6px 5px 9px rgb(18 18 32);
 }
-.getearlyaccestoday p{
+
+.getearlyaccestoday p {
     width: 83%;
     text-align: center;
     opacity: 50%;
 }
-#myform{
+
+#myform {
     width: 85%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-#inputemail{
+
+#inputemail {
     height: 3em;
     margin-right: 2em;
     border-radius: 30px;
@@ -363,11 +388,15 @@ a{
 @media screen and (max-width: 425px) {
     .homecontent h1 {
         width: 100%;
-        font-size: 2em;
+        font-size: 1.5em;
     }
 
     .homecontent p {
         width: 100%;
+        font-size: small;
+    }
+    .homecontent--txtcenter{
+        font-size: large;
     }
 
     .contentSecond__card {
@@ -376,6 +405,7 @@ a{
 
     .contentSecond__card p {
         width: 100%;
+        font-size: 1em;
     }
 
     .contentstayproductive__descript {
