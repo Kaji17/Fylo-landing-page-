@@ -240,6 +240,76 @@ footer{
     padding-left: 3em;
 }
 
+.footercontent__location p {
+    width: 80%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1em;
+    opacity: 60%;
+}
+
+.footercontent--img {
+    width: fit-content;
+    height: fit-content;
+}
+
+.footercontent .footercontent__location {
+    display: flex;
+    width: 50%;
+}
+
+.footercontent .footercontent__contact {
+    display: flex;
+}
+
+.footercontent__contact .telcontent {
+    display: flex;
+}
+
+.footercontent__contact .emailcontent {
+    display: flex;
+    margin-top: 2em;
+}
+
+.footercontent__contact p {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 1em;
+    opacity: 60%;
+}
+
+.footer__list {
+    margin-top: 0px;
+    display: flex;
+    flex-direction: column;
+}
+
+.circleborder--white{
+    border-radius: 50%;
+    height: 2.5em;
+    width: 2.5em;
+    margin-right: 1em;
+    border: 2px solid white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#linka:hover{
+    color: hsl(198, 60%, 50%);
+    
+}
+.circleborder--white:hover{
+    border: 2px solid hsl(198, 60%, 50%);
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+.iconcontent{
+    display: flex;
+}
+
 @media screen and (max-width: 1024px) {
     .contentstayproductive {
         flex-direction: column;
