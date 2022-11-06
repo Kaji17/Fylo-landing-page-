@@ -9,8 +9,11 @@ let regex = new RegExp('[a-z0-9]+@[a-z]+\.[a-z]{2,3}');
 window.addEventListener('DOMContentLoaded', () => {
     if (window.innerWidth === 375) {
         body.style.backgroundImage = "url\(\"images/bg-curvy-mobile.svg\")";
-        body.style.backgroundPositionY = '33em';
-    }
+    body.style.backgroundPositionY = '31em';
+}else if (window.innerWidth === 1440) {
+    body.style.backgroundImage = "url\(\"images/bg-curvy-desktop.svg\")";
+    body.style.backgroundPositionY = '34em';
+}
 })
 
 btnsubmit.addEventListener('click', () => {
