@@ -24,7 +24,7 @@ Users should be able to:
 
 ### Screenshot
 
-![](images/screenshotendwork.jpeg)
+![](images/screenshoot.jpeg)
 ### Links
 
 - Solution URL: [Add solution URL here](https://github.com/Kaji17/Fylo-landing-page-)
